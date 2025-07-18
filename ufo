@@ -96,7 +96,7 @@ plt.figure(figsize=(16, 8))
 for region in economics_dynamic.columns:
     plt.plot(economics_dynamic.index, economics_dynamic[region], label=region, alpha=0.7)
 
-plt.title('Динамика упоминаний экономики по регионам')
+plt.title('Динамика упоминаний патриотизма по регионам')
 plt.xlabel('Дата')
 plt.ylabel('Количество упоминаний')
 plt.legend(bbox_to_anchor=(1.05, 1))
